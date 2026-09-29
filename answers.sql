@@ -9,5 +9,9 @@ IS
 BEGIN
     INSERT INTO Student
     VALUES (StudentID, StudentName, DOB, Gender, DepartmentID);
+
+    COMMIT;
+
+    DBMS_OUTPUT.PUT_LINE('Student inserted successfully');
 END;
 /
